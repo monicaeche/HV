@@ -1,0 +1,443 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{00A388}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\photo{images/Moni.jpg}
+\name{Mónica}{Echeverría Burbano}
+
+
+\mobile{(+57) 3212747177}
+\email{\href{mailto:monicaeche@gmail.com}{\nolinkurl{monicaeche@gmail.com}}}
+\orcid{0000-0002-6033-1085}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+\quote{\href{https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001636025}{\emph{CvLAC}}
+• \href{https://mecheverria8.wixsite.com/monicaechefoto}{\emph{Book
+fotográfico}}}
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {19 de noviembre de 2022}
+    {Mónica Echeverría Burbano~~~·~~~Hoja de Vida Académica}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{acerca-de-muxed}{%
+\section{Acerca de mí}\label{acerca-de-muxed}}
+
+Mi trabajo profesional ha estado vinculado con el respeto de los
+Derechos Humanos, el acceso a la justicia, la resolución de conflictos y
+a la equidad de género, desde la realización de estrategias
+comunicativas participativas a favor del cambio social. Investigadora de
+medios de comunicación,con experiencia en el análisis del quehacer
+periodístico en diferentes contextos, la prevención de las violencias
+basadas en género en las universidades y diferentes comunidades. Cuento
+con experiencia en la estructuración pedagógica de procesos de
+aprendizaje virtuales y presenciales
+
+\hypertarget{investigaciuxf3n}{%
+\section{Investigación}\label{investigaciuxf3n}}
+
+\begin{cvskills}
+  \cvskill
+    {Líneas de Investigación}
+    {Comunicación estratégica • Comunicación con enfoque de derechos humanos • Género • Ciclo de vida • \newline
+    Análisis de medios}
+\end{cvskills}
+
+\hypertarget{educaciuxf3n}{%
+\section{Educación}\label{educaciuxf3n}}
+
+\begin{cventries}
+    \cventry{Doctorado en Investigación de Medios de Comunicación}{Universidad Carlos III de Madrid}{Madrid, España}{2022}{}\vspace{-4.0mm}
+    \cventry{Maestría en Igualdad de género en ámbito público y privado}{Universidad Jaime I}{Castellón de la Plana, España}{2017}{}\vspace{-4.0mm}
+    \cventry{Máster en Derechos Fundamentales}{Universidad Carlos III de Madrid}{Madrid, España}{2011}{}\vspace{-4.0mm}
+    \cventry{Especialización en Resolución de Conflictos}{Pontificia Universidad Javeriana}{Bogotá, Colombia}{2009}{}\vspace{-4.0mm}
+    \cventry{Comunicación Social}{Universidad del Cauca}{Popayán, Colombia}{2006}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{educaciuxf3n-complementaria}{%
+\section{Educación complementaria}\label{educaciuxf3n-complementaria}}
+
+\begin{cventries}
+    \cventry{Tramas de las desigualdades en América Latina y el Caribe}{Consejo latinoamericano de ciencias sociales}{Ciudad de México, México}{2022}{}\vspace{-4.0mm}
+    \cventry{Gamificación Pedagógica}{Universidad Central}{Bogotá, Colombia}{2022}{}\vspace{-4.0mm}
+    \cventry{Comunicación e información en la sociedad de la incertidumbre. Apuestas y desafíos}{Asociación Colombiana de Investigadores de Comunicación}{Santa Marta, Colombia}{2021}{}\vspace{-4.0mm}
+    \cventry{Investigación crítica de la comunicación en América Latina}{Asociación Latinoamericana de Investigadores de la Comunicación}{La Paz, Bolivia}{2019}{}\vspace{-4.0mm}
+    \cventry{Violencia y género en los medios de Comunicación}{Instituto nacional de periodismo José Martí}{La Habana, Cuba}{2019}{}\vspace{-4.0mm}
+    \cventry{Inglés (B2)}{Berlitz}{Bogotá, Colombia}{2018}{}\vspace{-4.0mm}
+    \cventry{Curso raza y género desde la perspectiva crítica de la colonialidad}{Universidad Central}{Bogotá, Colombia}{2018}{}\vspace{-4.0mm}
+    \cventry{Experiencias Investigativas en Comunicación Social}{Universidad del Cauca}{Popayán, Colombia}{2018}{}\vspace{-4.0mm}
+    \cventry{XXIV Cátedra UNESCO de Comunicación}{Pontificia Universidad Javeriana}{Bogotá, Colombia}{2017}{}\vspace{-4.0mm}
+    \cventry{La investigación como experiencia}{Universidad Central}{Bogotá, Colombia}{2017}{}\vspace{-4.0mm}
+    \cventry{Inglés}{Chamber College}{La Valeta, Malta}{2016}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{experiencia-laboral}{%
+\section{Experiencia Laboral}\label{experiencia-laboral}}
+
+\begin{cventries}
+    \cventry{Pedagoga}{Cedavida}{Bogotá, Colombia}{Sep 2020 - Dic 2020}{\begin{cvitems}
+\item Curso MinTIC por tu mujer
+\end{cvitems}}
+    \cventry{Coordinadora de Comunicaciones}{Egesco}{Bogotá, Colombia}{Jun 2016 - Dic 2016}{\begin{cvitems}
+\item Proyecto “Yo Cuido mi Futuro por Dos” en prevención de embarazo subsiguiente en la adolescencia
+\item Creadora de la propuesta
+\item Proyecto realizado por el ICBF y Egesco
+\end{cvitems}}
+    \cventry{Asesora comunicaciones}{Fundación Familia Ayara}{Bogotá, Colombia}{Ago 2015 - Feb 2016}{}\vspace{-4.0mm}
+    \cventry{Consultora en Comunicaciones}{Toro Desing Team SAS}{Bogotá, Colombia}{Mar 2015 - Oct 2015}{\begin{cvitems}
+\item Realización de la “Sala por la Memoria y la Dignidad de las Víctimas de la Fuerza Pública Colombiana”
+\end{cvitems}}
+    \cventry{Consultora Experta}{Egesco}{Bogotá, Colombia}{Jun 2014 - Dic 2014}{\begin{cvitems}
+\item Proyecto a favor de los Derechos Sexuales y Reproductivos, prevención de las violencias basadas en género e igualdad de género con especial énfasis en prevención de embarazo adolescente para el DPS
+\end{cvitems}}
+    \cventry{Directora de Comunicaciones}{Checchi and Company Consulting Colombia}{Bogotá, Colombia}{Feb 2013 - Feb 2014}{\begin{cvitems}
+\item Proyecto de Acceso a la Justicia
+\end{cvitems}}
+    \cventry{Comunicadora}{Naciones Unidas - ONU Mujeres}{Pasto, Colombia}{Oct 2011 - May 2012}{\begin{cvitems}
+\item Programa Conjunto Ventana de Paz
+\end{cvitems}}
+    \cventry{Asesora en Comunicaciones}{Oficina de Derechos Humanos de la Vicepresidencia de la República de Colombia}{Bogotá, Colombia}{Nov 2009 - Jul 2010}{\begin{cvitems}
+\item Oficina de Lucha Contra la Impunidad
+\end{cvitems}}
+    \cventry{Comunicadora}{Brújula Comunicaciones}{Bogotá, Colombia}{Mar 2006 - Nov 2009}{\begin{cvitems}
+\item Trabajo con medios de comunicación, realización de estrategias para acceder a derechos fundamentales
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{experiencia-docente}{%
+\section{Experiencia Docente}\label{experiencia-docente}}
+
+\begin{cventries}
+    \cventry{Programa de Comunicación Social y periodismo}{Universidad Central}{Bogotá, Colombia}{2017 - Actualmente}{\begin{cvitems}
+\item Gestión de la comunicación (4 horas semanales - 2018 - Actualmente)
+\item Prácticas profesionales (4 horas semanales - 2022 - Actualmente)
+\item Gestión de recursos (3 horas semanales - 2021)
+\item Opción de grado Comunicación y DDHH - módulo Comunicación y Género (4 horas semanales - 2019 - 2021)
+\item Dirección semillero de comunicación y DDHH (2 horas semanales  - 2017 - 2021)
+\item Taller de acción social (4 horas semanales - 2017 - 2018)
+\item Proyecto de línea - investigación (4 horas semanales - 2018)
+\item Prácticas 1 (3 horas semanales - 2017 - 2018)
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{reconocimientos}{%
+\section{Reconocimientos}\label{reconocimientos}}
+
+\begin{cventries}
+    \cventry{Tesis doctoral Cum Laude y mención internacional}{Universidad Carlos III de Madrid}{Madrid, España}{2022}{}\vspace{-4.0mm}
+    \cventry{Becaria Escuela de verano}{ALAIC - Asociación Latinoamericana de Investigadores de la Comunicación}{La Paz, Bolivia}{2019}{}\vspace{-4.0mm}
+    \cventry{Beca por excelencia  Maestría Igualdad de Género en ámnito público y privado}{Universidad Jaime I}{Castellón de la Playa, España}{2016}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{publicaciones}{%
+\section{Publicaciones}\label{publicaciones}}
+
+\hypertarget{section}{%
+\subsection{\texorpdfstring{\textbf{Artículos}}{}}\label{section}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\textbf{Echeverría-Burbano, M.} \& Walzer Moskovic, A. (en prensa). El
+periodismo y las violencias sexuales en el conflicto armado colombiano.
+\emph{Revista Opción}
+
+\textbf{Echeverría-Burbano, M.}, \& Leguízamo-Serna, L.R. (2021). El
+quehacer periodístico en casos de violencia sexual contra mujeres en
+Colombia. \emph{Nómadas, 53}, 268-277.
+\url{https://doi.org/10.30578/nomadas.n53a16}
+
+\textbf{Echeverría-Burbano, M.} (2021). El Mito del Amor Romántico en el
+relato periodístico sobre los feminicidios de mujeres mayores de edad en
+Colombia. \emph{Comunicación Y Sociedad, 18}, 1-19.
+\url{https://doi.org/10.32870/cys.v2021.7762}
+
+\endgroup
+
+\hypertarget{section-1}{%
+\subsection{\texorpdfstring{\textbf{Capítulos de Libro}}{}}\label{section-1}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\textbf{Echeverría-Burbano, M.}, \& Leguízamo-Serna, L.R. (2022). El
+problema de poner a los victimarios en el centro de las historias de la
+violencia en contra de las niñas y las mujeres. El caso del feminicidio
+agravado de Yuliana Samboní. En L. Manrique Villanueva \& S.L. Ruiz
+Moreno (Eds.), \emph{Mujeres, comunicación y cambio social} (pp.~31-52).
+Ediciones USTA. \url{http://hdl.handle.net/11634/44849}
+
+\textbf{Echeverría-Burbano, M.}, \& Baquero Gaitán, M. (2020). El
+feminicidio en la prensa escrita colombiana. Un acercamiento desde el
+análisis de contenido. En J.M. Pereira G. (Ed.), \emph{Comunicación,
+información y lenguajes de la memoria} (pp.~1-17). Editorial Pontificia
+Universidad Javeriana.
+\url{https://www.javeriana.edu.co/unesco/comunicacioninformacion/contenido/ponencias/tema6/pdf/ponencia_03.pdf}
+
+\textbf{Echeverría-Burbano, M.}, \& Niño Sandoval, Y.P. (2019). Redes
+sociales y naturalización de la violencia contra las mujeres. En J.M.
+Pereira G. (Ed.), \emph{Buen vivir, cuidado de la casa común y
+reconciliación} (pp.~1-15). Editorial Pontificia Universidad Javeriana.
+\url{https://javeriana.edu.co/unesco/buenvivir/contenido/ponencias/tema1/pdf/ponencia_15.pdf}
+
+\textbf{Echeverría-Burbano, M.} (2019). Militares de EEUU y abusos
+sexuales a niñas en Colombia, un análisis desde los medios colombianos.
+En R. Cabral, A.I. Arévalo Salinas, G. Vilar Sastre \& T. Al Najjar
+Trujillo (Eds.), \emph{Estudios interdiciplinarios:Paz y comunicación}
+(pp.~70-80). Red de universidades internacionales y nacionales.
+
+\endgroup
+
+\hypertarget{ponencias-en-congresos-y-conferencias}{%
+\section{Ponencias en Congresos y
+Conferencias}\label{ponencias-en-congresos-y-conferencias}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\textbf{Echeverría-Burbano, M.} (2022). \emph{Violencia sexual en los
+medios de comunicación} {[}Ponencia{]}. Gender in Media and
+Communications in the Digita Age, Madrid, España.
+
+\textbf{Echeverría-Burbano, M.} (2022). \emph{Violencia sexual en los
+medios de comunicación} {[}Ponencia{]}. CLACSO, México D.F., México.
+
+\textbf{Echeverría-Burbano, M.} (2022). \emph{El nexo entre feminicidio
+y la violencia sexual: su nulo tratamiento en los medios de comunicación
+colombianos} {[}Ponencia{]}. Catedra Unesco de Comunicación, Bogotá,
+Colombia.
+
+\textbf{Echeverría-Burbano, M.} (2022). \emph{El tratamiento
+periodístico de las violencias sexuales en contra de las mujeres en el
+marco del conflicto armado colombiano} {[}Ponencia{]}. IV Congreso de
+Investigadoras del SNI y de Iberoamérica, Bogotá, Colombia.
+
+\textbf{Echeverría-Burbano, M.} (2022). \emph{El feminicidio y el mito
+del amor romántico en los medios de comunicación colombianos}
+{[}Conferencia{]}. Uniminuto, Buga, Colombia.
+
+\textbf{Echeverría-Burbano, M.} (2021). \emph{Violencia sexual en los
+medios de comunicación} {[}Ponencia{]}. ACICOM, Santa Marta, Colombia.
+
+\textbf{Echeverría-Burbano, M.}, \& Leguízamo-Serna, L.R. (2021).
+\emph{Los victimarios en el centro de las historias de la violencia en
+contra de las mujeres} {[}Ponencia{]}. Norwegian Association of Latin
+American Studies - NALAS, Oslo, Noruega.
+
+\textbf{Echeverría-Burbano, M.} (2020). \emph{Experiencias de
+investigación en medios contra violencia de género} {[}Ponencia{]}.
+Ciclo de conferencias Comuniquémonos, Uniminuto, Buga, Colombia.
+
+\textbf{Echeverría-Burbano, M.}, \& Leguízamo-Serna, L.R. (2019).
+\emph{El feminicidio en los medios de comunicación colombianos}
+{[}Ponencia{]}. Instituto Internacional de Periodismo José Martí, La
+Habana, Cuba.
+
+\textbf{Echeverría-Burbano, M.}, \& Baquero Gaitán, M. (2018). \emph{El
+feminicidio desde los medios de comunicación} {[}Ponencia{]}. Cátedra
+Unesco de Comunicación, Bogotá, Colombia.
+
+\textbf{Echeverría-Burbano, M.} (2018). \emph{Observatorio de Medios y
+Género de la Universidad Central} {[}Conferencia{]}. EICOS IX,
+Universidad del Cauca, Popayán, Colombia.
+
+\textbf{Echeverría-Burbano, M.} (2018). \emph{Violencia sexual en los
+medios de comunicación} {[}Ponencia{]}. Ciclo de conferencias De tratos
+y maltratos: diferencias, poderes y violencias, Universidad Central,
+Bogotá, Colombia.
+
+\textbf{Echeverría-Burbano, M.} (2017). \emph{Periodismo con enfoque de
+género} {[}Conferencia{]}. Fundación Universitaria Los Libertadores,
+Bogotá, Colombia.
+
+\textbf{Echeverría-Burbano, M.} (2017). \emph{Militares de Estados
+Unidos y abusos sexuales a niñas en Colombia, un análisis desde los
+medios colombianos} {[}Ponencia{]}. Congreso Internacional de
+Comunicación, Conflictos y Cambio Social, Castellón de la Plana, España.
+
+\textbf{Echeverría-Burbano, M.}, \& Niño Sandoval, Y.P. (2017).
+\emph{Redes sociales y naturalización de la violencia contra las
+mujeres} {[}Ponencia{]}. Cátedra Unesco de Comunicación, Bogotá,
+Colombia.
+
+\endgroup
+
+\hypertarget{roles-editoriales}{%
+\section{Roles Editoriales}\label{roles-editoriales}}
+
+\begin{cventries}
+    \cventry{Journals Incluyen}{Par Ad Hoc}{Journals Nacionales e Internacionales}{Desde 2018}{\begin{cvitems}
+\item Revista Via Iuris
+\item Estudios sobre el Mensaje Periodístico
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{organizaciuxf3n-de-eventos-acaduxe9micos}{%
+\section{Organización de Eventos
+Académicos}\label{organizaciuxf3n-de-eventos-acaduxe9micos}}
+
+\begin{cventries}
+    \cventry{Organizadora}{Respondiendo a las injusticias epistemicas}{Universidad Central}{2020}{}\vspace{-4.0mm}
+    \cventry{Organizadora}{Para nosotras, pero con nosotras}{Universidad Central}{2020}{}\vspace{-4.0mm}
+    \cventry{Organizadora}{Estigmas y reparaciones, retos para las victimas de violencia sexual en
+conflictos armados}{Universidad Central}{2019}{}\vspace{-4.0mm}
+    \cventry{Organizadora}{Proyecto Tumaco}{Universidad Central}{2018}{}\vspace{-4.0mm}
+    \cventry{Organizadora}{Lanzamiento del observatorio de Género y No es Hora
+de Calla}{Universidad Central}{2017}{}\vspace{-4.0mm}
+    \cventry{Organizadora}{Hablemos de diversidad, género y nuevas tecnologias}{Universidad Central}{2017}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{proyectos-de-investigaciuxf3n-liderados}{%
+\section{Proyectos de Investigación
+Liderados}\label{proyectos-de-investigaciuxf3n-liderados}}
+
+\begin{cventries}
+    \cventry{Investigadora Principal}{Universidad Central}{Bogotá, Colombia}{2018}{\begin{cvitems}
+\item Análisis del discurso periodístico en Colombia ¿entre la norma y la naturalización?
+\end{cvitems}}
+    \cventry{Investigadora Principal}{Universidad Central}{Bogotá, Colombia}{2019}{\begin{cvitems}
+\item El quehacer periodístico en Colombia y sus aporte en los procesos de memoria histórica  en los 
+casos de violencia sexual
+contra mujeres en Colombia
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{supervisiuxf3n-de-proyectos-de-investigaciuxf3n}{%
+\section{Supervisión de Proyectos de
+Investigación}\label{supervisiuxf3n-de-proyectos-de-investigaciuxf3n}}
+
+\begin{cventries}
+    \cventry{Comunicación Social y periodismo}{Universidad Central}{Bogotá, Colombia}{Desde 2018}{\begin{cvitems}
+\item Natalia Escudero, 'La moda como práctica social ue crea sentido' (2022)
+\item Tatiana Milena Vasquez, 'Análisis de acciones colectivas de tres colectivos feministas de Latinaomérica' (2021)
+\item Paula Andrea Moncada, 'Análisis crítico discursivo con enfoque de género del cubrimiento periodístico de los casos de explotación sexual infantil en Colombia' (2021)
+\item María Camila Hernández, 'Constelaciones de sueños: los sueños como práctica comunicativa de mujeres víctimas de violencia sexual ' (2021)
+\item Angie Natalia Acosta, 'Discursos ciberfeministas en la red social de TikTok' (2021)
+\item Laura Daniela Lizcano, 'Resiliencia: memorias de mujeres reincorporadas, víctimas y sobrevivientes' (2020)
+\item Yulieth Katherine Parra, 'Resiliencia: memorias de mujeres reincorporadas, víctimas y sobrevivientes' (2020)
+\item Dexy Tatiana Torres, 'Análisis de las estrategias comunicativas realizadas por la secretaria de Bogotá a favor de las mujeres víctimas de violencia de genero' (2019)
+\item Felipe Torres, 'La música en los procesos de memoria histórica' (2019)
+\item Jeisson Julián Jimenez, 'Discurso periodístico y violencia contra las farianas, una aproximación al tratamiento periodístico a los casos de aborto forzado de las FARC' (2019)
+\item Olga Ochoa, 'Análisis de las estrategias de comunicación de los movimientos sociales feministas que lograron la despenalización parcial del aborto en Colombia' (2019)
+\item María Fernanda Vargas, '¿Amores que matan?: un análisis del feminicidio a través de la prensa colombiana' (2018)
+\item Edni Ovalle, 'El feminicidio de Yuliana Samboní ¿un lucro informativo o una forma de concienzar un problema social?' (2018)
+\item Julieth Pinzón, 'Imagen gráfica en los medios de comunicación y la naturalización del feminicidio' (2018)
+\item Laura Cortés, 'Las fuentes en el ejercicio periodístico sobre el relato del feminicidio en Colombia  ' (2018)
+\item Alison Johana Alexandra Paredes, 'El papel de los medios de comunicación frente al fortalecimiento de la memoria histórica en los casos de violencia sexual en el marco del conflicto armado colombiano' (2018)
+\item Edward Felipe Marín, 'Memoria Histórica en los casos de violencia sexual en el marco del conflicto armado colombiano' (2018)
+\end{cvitems}}
+\end{cventries}
+
+
+
+\end{document}

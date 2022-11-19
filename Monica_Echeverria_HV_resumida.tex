@@ -1,0 +1,282 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{00A388}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\photo{images/Moni.jpg}
+\name{Mónica}{Echeverría Burbano}
+
+
+\mobile{(+57) 3212747177}
+\email{\href{mailto:monicaeche@gmail.com}{\nolinkurl{monicaeche@gmail.com}}}
+\orcid{0000-0002-6033-1085}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+\quote{\href{https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001636025}{\emph{CvLAC}}
+• \href{https://mecheverria8.wixsite.com/monicaechefoto}{\emph{Book
+fotográfico}}}
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {19 de noviembre de 2022}
+    {Mónica Echeverría Burbano~~~·~~~Hoja de Vida Resumida}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{acerca-de-muxed}{%
+\section{Acerca de mí}\label{acerca-de-muxed}}
+
+Mi trabajo profesional ha estado vinculado con el respeto de los
+Derechos Humanos, el acceso a la justicia, la resolución de conflictos y
+a la equidad de género, desde la realización de estrategias
+comunicativas participativas a favor del cambio social. Investigadora de
+medios de comunicación,con experiencia en el análisis del quehacer
+periodístico en diferentes contextos, la prevención de las violencias
+basadas en género en las universidades y diferentes comunidades. Cuento
+con experiencia en la estructuración pedagógica de procesos de
+aprendizaje virtuales y presenciales
+
+\hypertarget{investigaciuxf3n}{%
+\section{Investigación}\label{investigaciuxf3n}}
+
+\begin{cvskills}
+  \cvskill
+    {Líneas de Investigación}
+    {Comunicación estratégica • Comunicación con enfoque de derechos humanos • Género • Ciclo de vida • \newline
+    Análisis de medios}
+\end{cvskills}
+
+\hypertarget{educaciuxf3n}{%
+\section{Educación}\label{educaciuxf3n}}
+
+\begin{cventries}
+    \cventry{Doctorado en Investigación de Medios de Comunicación}{Universidad Carlos III de Madrid}{Madrid, España}{2022}{}\vspace{-4.0mm}
+    \cventry{Maestría en Igualdad de género en ámbito público y privado}{Universidad Jaime I}{Castellón de la Plana, España}{2017}{}\vspace{-4.0mm}
+    \cventry{Máster en Derechos Fundamentales}{Universidad Carlos III de Madrid}{Madrid, España}{2011}{}\vspace{-4.0mm}
+    \cventry{Especialización en Resolución de Conflictos}{Pontificia Universidad Javeriana}{Bogotá, Colombia}{2009}{}\vspace{-4.0mm}
+    \cventry{Comunicación Social}{Universidad del Cauca}{Popayán, Colombia}{2006}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{experiencia-laboral-y-docente}{%
+\section{Experiencia Laboral y
+Docente}\label{experiencia-laboral-y-docente}}
+
+Para una lista completa y descripción de responsabilidades, por favor
+consulta mi
+\href{https://github.com/JDLeongomez/Moni_HV/raw/main/Monica_Echeverria_HV.pdf}{Hoja
+de Vida Académica}.
+
+\begin{cventries}
+    \cventry{Programa de Comunicación Social y periodismo}{Universidad Central}{Bogotá, Colombia}{2017 - Actualmente}{\begin{cvitems}
+\item Gestión de la comunicación (4 horas semanales - 2018 - Actualmente)
+\item Prácticas profesionales (4 horas semanales - 2022 - Actualmente)
+\item Gestión de recursos (3 horas semanales - 2021)
+\item Opción de grado Comunicación y DDHH - módulo Comunicación y Género (4 horas semanales - 2019 - 2021)
+\item Dirección semillero de comunicación y DDHH (2 horas semanales  - 2017 - 2021)
+\item Taller de acción social (4 horas semanales - 2017 - 2018)
+\item Proyecto de línea - investigación (4 horas semanales - 2018)
+\item Prácticas 1 (3 horas semanales - 2017 - 2018)
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{logros}{%
+\section{Logros}\label{logros}}
+
+Para información sobre \textbf{becas} y \textbf{premios}, por favor
+visita mi
+\href{https://github.com/JDLeongomez/Moni_HV/raw/main/Monica_Echeverria_HV.pdf}{Hoja
+de Vida Académica}.
+
+\hypertarget{publicaciones}{%
+\section{Publicaciones}\label{publicaciones}}
+
+\hypertarget{section}{%
+\subsection{\texorpdfstring{\textbf{Artículos}}{}}\label{section}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\textbf{Echeverría-Burbano, M.} \& Walzer Moskovic, A. (en prensa). El
+periodismo y las violencias sexuales en el conflicto armado colombiano.
+\emph{Revista Opción}
+
+\textbf{Echeverría-Burbano, M.}, \& Leguízamo-Serna, L.R. (2021). El
+quehacer periodístico en casos de violencia sexual contra mujeres en
+Colombia. \emph{Nómadas, 53}, 268-277.
+\url{https://doi.org/10.30578/nomadas.n53a16}
+
+\textbf{Echeverría-Burbano, M.} (2021). El Mito del Amor Romántico en el
+relato periodístico sobre los feminicidios de mujeres mayores de edad en
+Colombia. \emph{Comunicación Y Sociedad, 18}, 1-19.
+\url{https://doi.org/10.32870/cys.v2021.7762}
+
+\endgroup
+
+\hypertarget{section-1}{%
+\subsection{\texorpdfstring{\textbf{Capítulos de Libro}}{}}\label{section-1}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\textbf{Echeverría-Burbano, M.}, \& Leguízamo-Serna, L.R. (2022). El
+problema de poner a los victimarios en el centro de las historias de la
+violencia en contra de las niñas y las mujeres. El caso del feminicidio
+agravado de Yuliana Samboní. En L. Manrique Villanueva \& S.L. Ruiz
+Moreno (Eds.), \emph{Mujeres, comunicación y cambio social} (pp.~31-52).
+Ediciones USTA. \url{http://hdl.handle.net/11634/44849}
+
+\textbf{Echeverría-Burbano, M.}, \& Baquero Gaitán, M. (2020). El
+feminicidio en la prensa escrita colombiana. Un acercamiento desde el
+análisis de contenido. En J.M. Pereira G. (Ed.), \emph{Comunicación,
+información y lenguajes de la memoria} (pp.~1-17). Editorial Pontificia
+Universidad Javeriana.
+\url{https://www.javeriana.edu.co/unesco/comunicacioninformacion/contenido/ponencias/tema6/pdf/ponencia_03.pdf}
+
+\textbf{Echeverría-Burbano, M.}, \& Niño Sandoval, Y.P. (2019). Redes
+sociales y naturalización de la violencia contra las mujeres. En J.M.
+Pereira G. (Ed.), \emph{Buen vivir, cuidado de la casa común y
+reconciliación} (pp.~1-15). Editorial Pontificia Universidad Javeriana.
+\url{https://javeriana.edu.co/unesco/buenvivir/contenido/ponencias/tema1/pdf/ponencia_15.pdf}
+
+\textbf{Echeverría-Burbano, M.} (2019). Militares de EEUU y abusos
+sexuales a niñas en Colombia, un análisis desde los medios colombianos.
+En R. Cabral, A.I. Arévalo Salinas, G. Vilar Sastre \& T. Al Najjar
+Trujillo (Eds.), \emph{Estudios interdiciplinarios:Paz y comunicación}
+(pp.~70-80). Red de universidades internacionales y nacionales.
+
+\endgroup
+
+\hypertarget{roles-editoriales}{%
+\section{Roles Editoriales}\label{roles-editoriales}}
+
+\begin{cventries}
+    \cventry{Journals Incluyen}{Par Ad Hoc}{Journals Nacionales e Internacionales}{Desde 2018}{\begin{cvitems}
+\item Revista Via Iuris
+\item Estudios sobre el Mensaje Periodístico
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{organizaciuxf3n-de-eventos-acaduxe9micos}{%
+\section{Organización de Eventos
+Académicos}\label{organizaciuxf3n-de-eventos-acaduxe9micos}}
+
+\begin{cventries}
+    \cventry{Organizadora}{Respondiendo a las injusticias epistemicas}{Universidad Central}{2020}{}\vspace{-4.0mm}
+    \cventry{Organizadora}{Para nosotras, pero con nosotras}{Universidad Central}{2020}{}\vspace{-4.0mm}
+    \cventry{Organizadora}{Estigmas y reparaciones, retos para las victimas de violencia sexual en
+conflictos armados}{Universidad Central}{2019}{}\vspace{-4.0mm}
+    \cventry{Organizadora}{Proyecto Tumaco}{Universidad Central}{2018}{}\vspace{-4.0mm}
+    \cventry{Organizadora}{Lanzamiento del observatorio de Género y No es Hora
+de Calla}{Universidad Central}{2017}{}\vspace{-4.0mm}
+    \cventry{Organizadora}{Hablemos de diversidad, género y nuevas tecnologias}{Universidad Central}{2017}{}\vspace{-4.0mm}
+\end{cventries}
+
+
+
+\end{document}
