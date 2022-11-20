@@ -46,7 +46,7 @@ lapply(packages, library, character.only = TRUE) %>%
 
 # Acerca de mí
 
-Mi trabajo profesional ha estado vinculado con el respeto de los Derechos Humanos, el acceso a la justicia, la resolución de conflictos y a la equidad de género, desde la realización de estrategias comunicativas participativas a favor del cambio social. Investigadora de medios de comunicación,con experiencia en el análisis del quehacer periodístico en diferentes contextos, la prevención de las violencias basadas en género en las universidades y diferentes comunidades. Cuento con experiencia en la estructuración pedagógica de procesos de aprendizaje virtuales y presenciales
+Mi trabajo profesional ha estado vinculado con el respeto de los Derechos Humanos, el acceso a la justicia, la resolución de conflictos y a la equidad de género, desde la realización de estrategias comunicativas participativas a favor del cambio social. Investigadora de medios de comunicación, con experiencia en el análisis del quehacer periodístico en diferentes contextos, la prevención de las violencias basadas en género en las universidades y diferentes comunidades. Cuento con experiencia en la estructuración pedagógica de procesos de aprendizaje virtuales y presenciales.
 
 # Investigación
 
@@ -67,17 +67,13 @@ ezpickr::pick("data/educacion.xlsx") %>%
 
 # Experiencia Laboral y Docente
 
-Para una lista completa y descripción de responsabilidades, por favor consulta mi [Hoja de Vida Académica](https://github.com/JDLeongomez/Moni_HV/raw/main/Monica_Echeverria_HV.pdf).
+Para una lista completa e información detallada, visita mi [Hoja de Vida Académica](https://github.com/JDLeongomez/Moni_HV/raw/main/Monica_Echeverria_HV.pdf).
 
-```{r experiencia_docente}
-ezpickr::pick("data/experiencia_docente.xlsx") %>%
+```{r experiencia_laboral}
+ezpickr::pick("data/experiencia_laboral_docente.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
-
-# Logros
-
-Para información sobre **becas** y **premios**, por favor visita mi [Hoja de Vida Académica](https://github.com/JDLeongomez/Moni_HV/raw/main/Monica_Echeverria_HV.pdf).
 
 # Publicaciones
 
@@ -100,19 +96,3 @@ Para información sobre **becas** y **premios**, por favor visita mi [Hoja de Vi
 `r knitr::knit_child("bib/capitulos.txt")`
 
 \endgroup
-
-# Roles Editoriales
-
-```{r par}
-ezpickr::pick("data/par_evaluador.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
-```
-
-# Organización de Eventos Académicos
-
-```{r eventos}
-ezpickr::pick("data/eventos.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
-```
