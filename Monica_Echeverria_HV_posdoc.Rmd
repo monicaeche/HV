@@ -1,0 +1,162 @@
+---
+graphics: yes
+name: Mónica
+surname: Echeverría Burbano
+phone: (+57) 3212747177
+email: "monicaeche@gmail.com"
+orcid: 0000-0002-6033-1085
+aboutme: |
+  [*CvLAC*](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001636025) • 
+  [*Book fotográfico*](https://mecheverria8.wixsite.com/monicaechefoto)
+profilepic: "images/Moni.jpg"
+date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
+headcolor: 00A388
+docname: Hoja de Vida Académica
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+xfun::pkg_attach2(pkgs)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data sctructure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative Filepaths
+             ,'readr'     # Data Loading
+             ,'tidyverse' # Needed for bind_rows and whatever
+             ,'scholar'   # Updating publications from google scholar
+             ,'kableExtra'# Adding technicalskills table
+            )
+library(magrittr)
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+# Acerca de mí
+
+Investigadora de medios de comunicación con experiencia en el análisis del quehacer periodístico sobre la prevención de violencias basadas en género.
+
+# Investigación
+
+\begin{cvskills}
+  \cvskill
+    {Líneas de Investigación}
+    {Comunicación estratégica • Comunicación con enfoque de derechos humanos • Género • Interseccionalidad • \newline
+    Análisis de medios}
+\end{cvskills}
+
+# Educación
+
+```{r educacion}
+ezpickr::pick("data/educacion.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Educación complementaria
+
+```{r educacion_complementaria}
+ezpickr::pick("data/educacion_complementaria.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Reconocimientos
+
+```{r reconocimientos}
+ezpickr::pick("data/reconocimientos.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Experiencia Laboral Académica
+
+```{r experiencia_docente}
+ezpickr::pick("data/experiencia_docente.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Publicaciones
+
+## \textbf{Artículos}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("bib/articulos.txt")`
+
+\endgroup
+
+## \textbf{Capítulos de Libro}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("bib/capitulos.txt")`
+
+\endgroup
+
+# Ponencias en Congresos y Conferencias
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("bib/ponencias.txt")`
+
+\endgroup
+
+# Roles Editoriales
+
+```{r par}
+ezpickr::pick("data/par_evaluador.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Organización de Eventos Académicos
+
+```{r eventos}
+ezpickr::pick("data/eventos.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Proyectos de Investigación Liderados
+
+```{r proyectos}
+ezpickr::pick("data/proyectos.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Supervisión de Proyectos de Investigación
+
+```{r supervision}
+ezpickr::pick("data/supervision.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Experiencia Laboral No Académica
+
+```{r experiencia_laboral}
+ezpickr::pick("data/experiencia_laboral.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
