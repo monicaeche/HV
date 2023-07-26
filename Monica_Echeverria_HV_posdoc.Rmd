@@ -53,8 +53,8 @@ Investigadora de medios de comunicación con experiencia en el análisis del que
 \begin{cvskills}
   \cvskill
     {Líneas de Investigación}
-    {Comunicación estratégica • Comunicación con enfoque de derechos humanos • Género • Interseccionalidad • \newline
-    Análisis de medios}
+    {Comunicación estratégica en organizaciones y movimientos sociales •  • Género • Interseccionalidad \newline
+    Comunicación con enfoque de derechos humanos • Análisis de medios}
 \end{cvskills}
 
 # Educación
@@ -81,7 +81,7 @@ ezpickr::pick("data/reconocimientos.xlsx") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
 
-# Experiencia Laboral Académica
+# Experiencia Docente
 
 ```{r experiencia_docente}
 ezpickr::pick("data/experiencia_docente.xlsx") %>%
@@ -145,18 +145,18 @@ ezpickr::pick("data/proyectos.xlsx") %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
 
-# Supervisión de Proyectos de Investigación
-
-```{r supervision}
-ezpickr::pick("data/supervision.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
-```
-
 # Experiencia Laboral No Académica
 
 ```{r experiencia_laboral}
 ezpickr::pick("data/experiencia_laboral.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+# Supervisión de Proyectos de Investigación
+
+```{r supervision}
+ezpickr::pick("data/supervision.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```

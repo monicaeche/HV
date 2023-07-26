@@ -53,10 +53,9 @@ Mi trabajo profesional ha estado vinculado con el respeto de los Derechos Humano
 \begin{cvskills}
   \cvskill
     {Líneas de Investigación}
-    {Comunicación estratégica • Comunicación con enfoque de derechos humanos • Género • Ciclo de vida • \newline
-    Análisis de medios}
+    {Comunicación estratégica en organizaciones y movimientos sociales •  • Género • Interseccionalidad \newline
+    Comunicación con enfoque de derechos humanos • Análisis de medios}
 \end{cvskills}
-
 # Educación
 
 ```{r educacion}
