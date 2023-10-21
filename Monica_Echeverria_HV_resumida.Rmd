@@ -62,7 +62,7 @@ Mi trabajo profesional ha estado vinculado con el respeto de los Derechos Humano
 ```{r educacion}
 ezpickr::pick("data/educacion.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
+  vitae::detailed_entries(what, when, with, where,
                           .protect = FALSE)
 ```
 

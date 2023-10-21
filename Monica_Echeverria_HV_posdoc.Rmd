@@ -53,7 +53,7 @@ Investigadora de medios de comunicación con experiencia en el análisis del que
 \begin{cvskills}
   \cvskill
     {Líneas de Investigación}
-    {Comunicación estratégica en organizaciones y movimientos sociales •  • Género • Interseccionalidad \newline
+    {Comunicación estratégica en organizaciones y movimientos sociales • Género • Interseccionalidad \newline
     Comunicación con enfoque de derechos humanos • Análisis de medios}
 \end{cvskills}
 
