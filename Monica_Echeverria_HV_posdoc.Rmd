@@ -75,7 +75,7 @@ ezpickr::pick("data/educacion_complementaria.xlsx") %>%
                           .protect = FALSE)
 ```
 
-# Reconocimientos
+# Subvenciones, Premios y Reconocimientos
 
 ```{r reconocimientos}
 ezpickr::pick("data/reconocimientos.xlsx") %>%
@@ -84,7 +84,7 @@ ezpickr::pick("data/reconocimientos.xlsx") %>%
                           .protect = FALSE)
 ```
 
-# Experiencia Docente
+# Experiencia Académica
 
 ```{r experiencia_docente}
 ezpickr::pick("data/experiencia_docente.xlsx") %>%
@@ -95,7 +95,17 @@ ezpickr::pick("data/experiencia_docente.xlsx") %>%
 
 # Publicaciones
 
-## \textbf{Artículos}
+## \textbf{Artículos en Revisión}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+`r knitr::knit_child("bib/articulos_sometidos.txt")`
+
+\endgroup
+
+## \textbf{Artículos Publicados}
 
 \begingroup
 \setlength{\parindent}{-0.5in}

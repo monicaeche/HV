@@ -66,9 +66,7 @@ ezpickr::pick("data/educacion.xlsx") %>%
                           .protect = FALSE)
 ```
 
-# Experiencia Laboral y Docente
-
-Para una lista completa e información detallada, visita mi [Hoja de Vida Académica](https://github.com/JDLeongomez/Moni_HV/raw/main/Monica_Echeverria_HV.pdf).
+# Experiencia Laboral y Académica
 
 ```{r experiencia_laboral}
 ezpickr::pick("data/experiencia_laboral_docente.xlsx") %>%
@@ -79,22 +77,4 @@ ezpickr::pick("data/experiencia_laboral_docente.xlsx") %>%
 
 # Publicaciones
 
-## \textbf{Artículos}
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-`r knitr::knit_child("bib/articulos.txt")`
-
-\endgroup
-
-## \textbf{Capítulos de Libro}
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-`r knitr::knit_child("bib/capitulos.txt")`
-
-\endgroup
+Para una lista completa e información detallada, visita mi [Hoja de Vida Académica](https://github.com/JDLeongomez/Moni_HV/raw/main/Monica_Echeverria_HV.pdf).
