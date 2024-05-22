@@ -33,4 +33,4 @@ En esta página, puedes ver o descargar tanto mi hoja de vida general, como una 
 
 ______________________
 
-***Nota:*** El repositorio con el código para crear esta HV está disponible en [`r fontawesome::fa(name = "github")` GitHub](https://github.com/monicaeche/CV) 
+***Nota:*** El repositorio con el código para crear esta HV está disponible en  [GitHub `r fontawesome::fa(name = "github")`](https://github.com/monicaeche/CV) 
