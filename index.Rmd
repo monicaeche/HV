@@ -1,0 +1,36 @@
+---
+title: "Mónica Echeverría Burbano"
+subtitle: "Hoja de Vida"
+author: ""
+output: 
+  html_document:
+    theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(fontawesome)
+library(icons)
+```
+
+```{css, echo=FALSE}
+a:link {
+  color: lightseagreen;
+}
+```
+
+[`r icon_style(icons::academicons("orcid"), scale = 2,  fill = "lightseagreen")`](https://orcid.org/0000-0002-6033-1085)   [`r icon_style(icons::academicons("google-scholar"), scale = 2,  fill = "lightseagreen")`](https://scholar.google.es/citations?user=2lx9eFQAAAAJ)
+
+______________________
+
+En esta página, puedes ver o descargar tanto mi hoja de vida general, como una versión académica (posdoc), o una hoja de vida resumida de 2 páginas:
+
+* [Hoja de vida general](https://monicaeche.github.io/HV/PDF/Monica_Echeverria_HV.pdf)
+
+* [Hoja de vida posdoc](https://monicaeche.github.io/HV/PDF/Monica_Echeverria_HV_posdoc.pdf)
+
+* [Hoja de vida resumida](https://monicaeche.github.io/HV/PDF/Monica_Echeverria_HV_resumida.pdf) (2 páginas) 
+
+______________________
+
+***Nota:*** El repositorio con el código para crear esta HV está disponible en [`r fontawesome::fa(name = "github")` GitHub](https://github.com/monicaeche/CV) 
