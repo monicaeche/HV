@@ -60,7 +60,7 @@ Investigadora de medios de comunicación con experiencia en el análisis del que
 # Educación
 
 ```{r educacion}
-ezpickr::pick("data/educacion.xlsx") %>%
+readxl::read_excel("data/educacion.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -69,7 +69,7 @@ ezpickr::pick("data/educacion.xlsx") %>%
 # Educación complementaria
 
 ```{r educacion_complementaria}
-ezpickr::pick("data/educacion_complementaria.xlsx") %>%
+readxl::read_excel("data/educacion_complementaria.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -78,7 +78,7 @@ ezpickr::pick("data/educacion_complementaria.xlsx") %>%
 # Subvenciones, Premios y Reconocimientos
 
 ```{r reconocimientos}
-ezpickr::pick("data/reconocimientos.xlsx") %>%
+readxl::read_excel("data/reconocimientos.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -87,7 +87,7 @@ ezpickr::pick("data/reconocimientos.xlsx") %>%
 # Experiencia Académica
 
 ```{r experiencia_docente}
-ezpickr::pick("data/experiencia_docente.xlsx") %>%
+readxl::read_excel("data/experiencia_docente.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -138,7 +138,7 @@ ezpickr::pick("data/experiencia_docente.xlsx") %>%
 # Roles Editoriales
 
 ```{r par}
-ezpickr::pick("data/par_evaluador.xlsx") %>%
+readxl::read_excel("data/par_evaluador.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -147,7 +147,7 @@ ezpickr::pick("data/par_evaluador.xlsx") %>%
 # Organización de Eventos Académicos
 
 ```{r eventos}
-ezpickr::pick("data/eventos.xlsx") %>%
+readxl::read_excel("data/eventos.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -156,7 +156,7 @@ ezpickr::pick("data/eventos.xlsx") %>%
 # Proyectos de Investigación Liderados
 
 ```{r proyectos}
-ezpickr::pick("data/proyectos.xlsx") %>%
+readxl::read_excel("data/proyectos.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -165,7 +165,7 @@ ezpickr::pick("data/proyectos.xlsx") %>%
 # Experiencia Laboral No Académica
 
 ```{r experiencia_laboral}
-ezpickr::pick("data/experiencia_laboral.xlsx") %>%
+readxl::read_excel("data/experiencia_laboral.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -174,7 +174,7 @@ ezpickr::pick("data/experiencia_laboral.xlsx") %>%
 # Supervisión de Proyectos de Investigación
 
 ```{r supervision}
-ezpickr::pick("data/supervision.xlsx") %>%
+readxl::read_excel("data/supervision.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)

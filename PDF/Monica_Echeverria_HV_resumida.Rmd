@@ -60,7 +60,7 @@ Mi trabajo profesional ha estado vinculado con el respeto de los Derechos Humano
 # Educación
 
 ```{r educacion}
-ezpickr::pick("data/educacion.xlsx") %>%
+readxl::read_excel("data/educacion.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where,
                           .protect = FALSE)
@@ -69,7 +69,7 @@ ezpickr::pick("data/educacion.xlsx") %>%
 # Experiencia Laboral y Académica
 
 ```{r experiencia_laboral}
-ezpickr::pick("data/experiencia_laboral_docente.xlsx") %>%
+readxl::read_excel("data/experiencia_laboral_docente.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)

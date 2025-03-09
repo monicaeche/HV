@@ -70,6 +70,10 @@
 \RequirePackage[quiet]{fontspec}
 % To support LaTeX quoting style
 \defaultfontfeatures{Ligatures=TeX}
+% Change to Spanish
+\usepackage[spanish]{babel}
+% Needed for multiple columns
+\usepackage{multicol}
 % Needed to manage math fonts
 \RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
@@ -93,7 +97,7 @@
   pdfsubject={},
   pdfkeywords={},
   colorlinks,
-  urlcolor=awesome-emerald
+  allcolors=teal
 }
 % Needed to include graphics
 \RequirePackage{graphicx}
@@ -697,7 +701,8 @@
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{-4.0mm}
+  %\vspace{-4.0mm}
+  \vspace{1.0mm}
 }
 
 
