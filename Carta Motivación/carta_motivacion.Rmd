@@ -1,0 +1,71 @@
+---
+graphics: yes
+name: Mónica
+surname: Echeverría Burbano
+position: Ph.D. • M.A.
+phone: (+57) 321 274 7177
+email: "monicaeche@gmail.com"
+orcid: 0000-0002-6033-1085
+date: "`r Sys.setlocale('LC_TIME','es_ES.UTF-8');format(Sys.Date(),'%d de %B de %Y')`"
+headcolor: 00A388
+docname: Carta de Motivación
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+pkgs <- c('vitae' ,'here' ,'tinytex' ,'tibble' ,'glue' ,'rmarkdown' ,'dplyr', 'readr' ,'yaml')
+xfun::pkg_attach2(pkgs)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data sctructure for tribbles
+             ,'magrittr'  # The Pipe |>
+             ,'here'      # Relative Filepaths
+             ,'readr'     # Data Loading
+             ,'tidyverse' # Needed for bind_rows and whatever
+             ,'scholar'   # Updating publications from google scholar
+             ,'kableExtra'# Adding technicalskills table
+            )
+
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) |>
+  invisible()
+```
+
+\doublespacing
+
+\textbf{Bogotá, `r format(Sys.Date(),'%d de %B de %Y')`} 
+
+Cordial saludo,
+
+Me dirijo a ustedes para postularme al cargo de Investigadora Junior en el Centro de Estudios de la FLIP. Soy Mónica Echeverría Burbano, Comunicadora Social de la Universidad del Cauca, especialista en Resolución de Conflictos por la Universidad Pontificia Javeriana, con una maestría en Género en Ámbito Público y Privado de la Universidad Jaume I, además de un Máster en Derechos Fundamentales y un doctorado en Investigación en Medios de Comunicación de la Universidad Carlos III de Madrid. A lo largo de 20 años de experiencia, he trabajado en comunicación estratégica, investigación mediática y procesos pedagógicos, con un enfoque especial en derechos humanos y género.
+
+En mi trayectoria profesional, he colaborado con diversas organizaciones en proyectos de alto impacto. En la agencia Brújula Comunicaciones, participé en la campaña para la reglamentación de la despenalización parcial del aborto en Colombia, junto con organizaciones como \textit{Women’s Link Worldwide} y la Mesa por la Vida y la Salud de las Mujeres. También contribuí a la campaña "¿Y los secuestrados del ELN qué?", liderada por la ONG País Libre. Como consultora estatal, he trabajado en iniciativas sobre prevención del embarazo no deseado en la adolescencia, memoria histórica, prevención del reclutamiento infantil y el desarrollo de un curso online para el Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC).
+
+He desempeñado roles de liderazgo en comunicación dentro de agencias internacionales como ONU Mujeres y el Proyecto de Acceso a la Justicia de USAID, donde gestioné estrategias comunicativas, el relacionamiento con medios y prensa colombiana, y la producción de diversos materiales de difusión.
+
+En el ámbito académico, fui docente e investigadora en la Universidad Central, donde lideré semilleros de investigación y dicté cursos sobre comunicación estratégica, género y metodologías de investigación. He publicado en revistas indexadas y participado como ponente en congresos en México, Cuba, Noruega, España y diversas regiones de Colombia. Gracias a mi investigación doctoral, que analiza los discursos de la prensa sobre violencias sexuales en el conflicto armado, he fortalecido mis competencias en investigación mediática, metodologías participativas, análisis de contenido, sistematización de datos y el uso de herramientas como R para análisis cuantitativo. Actualmente, desarrollo una investigación posdoctoral en colaboración con la Red de Mujeres Víctimas y Profesionales, financiada por Minciencias, en la cual elaboro un curso online sobre el tratamiento periodístico adecuado de las violencias de género.
+
+Deseo ser parte de la FLIP porque considero que es el espacio ideal para continuar desarrollando mis intereses investigativos en medios, periodismo, género y violencias, así como en derechos humanos, memoria histórica y educación desde la comunicación. Si bien amo la docencia y planeo continuar con ella, mi vocación investigativa requiere un entorno donde pueda debatir métodos, análisis y propuestas tanto investigativas como pedagógicas. Sé, porque sigo de cerca el trabajo de la FLIP, que con ustedes encontraría ese espacio de crecimiento intelectual que considero fundamental en mi vida profesional y personal.
+
+La comunicación y el periodismo no son solo mi profesión, sino la forma de vida que he elegido y que ha construido la persona que soy, de la cual me siento profundamente orgullosa. Deseo seguir avanzando en este camino y estoy convencida de que ser parte de la FLIP me permitirá hacerlo, al tiempo que podré aportar significativamente con mi experiencia al trabajo del Centro de Estudios.
+
+Agradezco su tiempo y consideración y espero la oportunidad de contribuir con mi conocimiento y trayectoria al equipo de la FLIP.
+
+Atentamente,
+
+\includegraphics[width=8cm]{Firma.png}
+
+\textbf{Mónica Echeverría Burbano}
+\vspace{-1.5em}
+\begin{footnotesize} 
+PhD en Investigación en Medios de Comunicación
+\end{footnotesize}
