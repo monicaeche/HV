@@ -9,7 +9,7 @@ aboutme: |
   [*CvLAC*](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001636025) • 
   [*Book fotográfico*](https://mecheverria8.wixsite.com/monicaechefoto)
 profilepic: "images/Moni.jpg"
-date: "`r Sys.setlocale('LC_TIME','Spanish');format(Sys.Date(),'%d de %B de %Y')`"
+date: "`r if (.Platform$OS.type == 'windows') { Sys.setlocale('LC_TIME','Spanish_Spain') } else { Sys.setlocale('LC_TIME','es_CO.UTF-8') }; format(Sys.Date(), '%d de %B de %Y')`"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 00A388
 docname: Hoja de Vida Resumida

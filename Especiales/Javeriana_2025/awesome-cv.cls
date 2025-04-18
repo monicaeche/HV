@@ -588,6 +588,7 @@
 
 \renewcommand{\section}[1]{%
 	\vspace{\acvSectionTopSkip}
+	{\color{awesome}{\blacktriangleright\space}}
 	\sectionstyle{#1}
 	\phantomsection
 	\color{gray}\vhrulefill{0.9pt}
@@ -598,6 +599,7 @@
 \renewcommand{\subsection}[1]{%
 	\vspace{\acvSectionContentTopSkip}
 %	\vspace{-3mm}
+  {\color{awesome}{\blacktriangleright\blacktriangleright\space}}
 	\subsectionstyle{#1}
 	\phantomsection
 }
@@ -607,6 +609,7 @@
 \renewcommand{\subsubsection}[1]{%
 	\vspace{\acvSectionContentTopSkip}
 	\vspace{-3mm}
+	{\color{awesome}{\blacktriangleright\blacktriangleright\blacktriangleright\space}}
 	\subsubsectionstyle{#1}
 	\phantomsection
 }

@@ -46,17 +46,27 @@ lapply(packages, library, character.only = TRUE) %>%
 
 # Acerca de mí
 
-Mi trabajo profesional ha estado vinculado con el respeto de los Derechos Humanos, el acceso a la justicia, la resolución de conflictos y a la equidad de género, desde la realización de estrategias comunicativas participativas a favor del cambio social. Investigadora de medios de comunicación, con experiencia en el análisis del quehacer periodístico en diferentes contextos, la prevención de las violencias basadas en género en las universidades y diferentes comunidades. Cuento con experiencia en la estructuración pedagógica de procesos de aprendizaje virtuales y presenciales.
-
-# Investigación
+Mi trabajo profesional ha estado vinculado con el respeto de los Derechos Humanos, el acceso a la justicia, la resolución de conflictos y a la equidad de género, desde la creación y gestión de estrategias comunicativas participativas a favor del cambio social. Soy investigadora en medios de comunicación con un particular interés por el impacto del quehacer periodístico y las redes sociales en la prevención de violencias basadas en género.
 
 \begin{cvskills}
   \cvskill
     {Líneas de Investigación}
     {Comunicación estratégica en organizaciones y movimientos sociales • Género • Interseccionalidad \newline
-    Comunicación con enfoque de derechos humanos • Análisis de medios}
+    Comunicación con enfoque de derechos humanos • Análisis de medios y redes sociales}
+  \cvskill
+    {Métodos de Investigación}
+    {Análisis de Contenido • Análisis Crítico del Discurso • Mapas Situacionales • Investigación Participativa}
+  \cvskill
+    {Habilidades}
+    {Creación de materiales pedagógicos y comunicativos en diferentes formatos}
+  \cvskill
+    {Software}
+    {Audacity • Kdenlive • Zotero • Genially • R}
 \end{cvskills}
+
 # Educación
+
+## Educación formal
 
 ```{r educacion}
 readxl::read_excel("data/educacion.xlsx") %>%
@@ -65,10 +75,50 @@ readxl::read_excel("data/educacion.xlsx") %>%
                           .protect = FALSE)
 ```
 
-# Educación complementaria
+## Educación complementaria
 
 ```{r educacion_complementaria}
 readxl::read_excel("data/educacion_complementaria.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+# Experiencia Profesional
+
+## Experiencia en Docencia Universitaria
+
+```{r experiencia_docente}
+readxl::read_excel("data/experiencia_docente.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+## Creación y Gestión de Proyectos de Investigación
+
+```{r proyectos}
+readxl::read_excel("data/proyectos.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+## Experiencia en Proyectos Creativos
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\footnotesize
+
+`r knitr::knit_child("bib/creativos.txt")`
+
+\endgroup
+
+## Experiencia Laboral en Creación y Gestión de Proyectos de Comunicación
+
+```{r experiencia_laboral}
+readxl::read_excel("data/experiencia_laboral.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -83,27 +133,11 @@ readxl::read_excel("data/reconocimientos.xlsx") %>%
                           .protect = FALSE)
 ```
 
-# Experiencia Laboral
+# Producción académica
 
-```{r experiencia_laboral}
-readxl::read_excel("data/experiencia_laboral.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
+## Publicaciones
 
-# Experiencia Académica
-
-```{r experiencia_docente}
-readxl::read_excel("data/experiencia_docente.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
-
-# Publicaciones
-
-## \textbf{Artículos en Revisión}
+### Artículos en Revisión
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -113,7 +147,7 @@ readxl::read_excel("data/experiencia_docente.xlsx") %>%
 
 \endgroup
 
-## \textbf{Artículos Publicados}
+### Artículos Publicados
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -123,7 +157,7 @@ readxl::read_excel("data/experiencia_docente.xlsx") %>%
 
 \endgroup
 
-## \textbf{Capítulos de Libro}
+### Capítulos de Libro
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -133,17 +167,18 @@ readxl::read_excel("data/experiencia_docente.xlsx") %>%
 
 \endgroup
 
-# Ponencias en Congresos y Conferencias
+## Ponencias en Congresos y Conferencias
 
 \begingroup
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
+\small
 
 `r knitr::knit_child("bib/ponencias.txt")`
 
 \endgroup
 
-# Roles Editoriales
+## Roles Editoriales
 
 ```{r par}
 readxl::read_excel("data/par_evaluador.xlsx") %>%
@@ -152,28 +187,19 @@ readxl::read_excel("data/par_evaluador.xlsx") %>%
                           .protect = FALSE)
 ```
 
-# Organización de Eventos Académicos
-
-```{r eventos}
-readxl::read_excel("data/eventos.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
-
-# Proyectos de Investigación Liderados
-
-```{r proyectos}
-readxl::read_excel("data/proyectos.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
-
-# Supervisión de Proyectos de Investigación
+## Supervisión de Proyectos de Investigación
 
 ```{r supervision}
 readxl::read_excel("data/supervision.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why,
+                          .protect = FALSE)
+```
+
+## Organización de Eventos Académicos
+
+```{r eventos}
+readxl::read_excel("data/eventos.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
