@@ -40,11 +40,11 @@ lapply(packages, library, character.only = TRUE) |>
   invisible()
 ```
 
-\doublespacing
+\onehalfspacing
 
 Bogotá, `r format(Sys.Date(),'%d de %B de %Y')` 
 
-\vspace{1.5em}
+\bigskip
 
 \textbf{Programa de Comunicación Social \newline
 Facultad de Comunicación y Lenguaje \newline
@@ -52,25 +52,33 @@ Pontificia Universidad Javeriana}
 
 \vspace{2em}
 
-Estimados miembros del comité de selección,
+Estimados miembros del comité de selección:
 
-Me permito presentar mi candidatura al cargo de Profesora de Planta de Tiempo Completo en el Departamento de Comunicación de la Pontificia Universidad Javeriana. Estoy convencida de que mi formación académica, experiencia docente, trayectoria investigativa y práctica profesional no solo cumplen, sino que superan ampliamente los requisitos establecidos para esta posición.
+\bigskip
+
+Me permito presentar mi candidatura al cargo de Profesora de Planta de Tiempo Completo en el Departamento de Comunicación de la Pontificia Universidad Javeriana. Estoy convencida de que mi formación académica, experiencia docente, trayectoria investigativa y práctica profesional no solo cumplen, sino que superan los requisitos establecidos para esta posición.
 
 Soy Comunicadora Social de la Universidad del Cauca, Especialista en Resolución de Conflictos por la Pontificia Universidad Javeriana, Magíster en Igualdad de Género en Ámbito Público y Privado por la Universitat Jaume I, Magíster en Derechos Fundamentales y Doctora en Investigación de Medios de Comunicación por la Universidad Carlos III de Madrid, grado que obtuve con mención Internacional y \textit{Cum Laude}. Esta formación me ha permitido consolidar una perspectiva interdisciplinaria, crítica y comprometida en comunicación estratégica, investigación mediática y procesos pedagógicos, con un enfoque especial en derechos humanos y género.
 
 A lo largo de mi carrera he combinado la academia con la práctica profesional, acumulando cerca de 20 años de experiencia en el campo de la comunicación estratégica, la investigación mediática y la docencia. He liderado proyectos en organizaciones nacionales e internacionales —incluyendo ONU Mujeres, USAID y MinTIC— en los cuales he diseñado y gestionado estrategias de comunicación orientadas al cambio social y al fortalecimiento de derechos fundamentales.
 
-En el ámbito académico, he ejercido durante más de ocho años como docente universitaria, dictando asignaturas sobre comunicación estratégica, derechos humanos, género y metodologías de investigación. He dirigido trabajos de grado, liderado semilleros de investigación y gestionado proyectos financiados mediante convocatorias competitivas, lo cual me ha permitido fortalecer mis competencias en formación, acompañamiento académico y liderazgo de grupos.
+De manera destacada, en la agencia Brújula Comunicaciones participé en la campaña para la reglamentación de la despenalización parcial del aborto en Colombia, en colaboración con organizaciones como \textit{Women’s Link Worldwide} y la Mesa por la Vida y la Salud de las Mujeres. Asimismo, contribuí a la campaña \textit{¿Y los secuestrados del ELN qué?}, liderada por la ONG País Libre. Como consultora estatal, he diseñado y gestionado proyectos relacionados con la prevención del embarazo no deseado en la adolescencia, memoria histórica, prevención del reclutamiento infantil y el desarrollo de un curso virtual para el Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC).
 
-Actualmente, me encuentro finalizando una estancia posdoctoral financiada por Minciencias, en colaboración con la Red de Mujeres Víctimas y Profesionales, en la cual desarrollo un curso virtual enfocado en el tratamiento periodístico de las violencias de género, lo que reafirma mi compromiso con la innovación pedagógica y la investigación aplicada.
+En el ámbito académico, he ejercido durante más de ocho años como docente universitaria e investigadora, dictando asignaturas sobre comunicación estratégica, derechos humanos, género y metodologías de investigación. He dirigido trabajos de grado, liderado semilleros de investigación y gestionado proyectos financiados mediante convocatorias competitivas, lo cual me ha permitido fortalecer mis competencias en formación, acompañamiento académico y liderazgo de grupos.
 
-\pagebreak
+Actualmente, me encuentro finalizando una estancia posdoctoral financiada por Minciencias, en colaboración con la Red de Mujeres Víctimas y Profesionales, donde desarrollo un curso virtual enfocado en el tratamiento periodístico de las violencias de género, lo que reafirma mi compromiso con la innovación pedagógica y la investigación aplicada.
+
+Esta línea de trabajo ha fortalecido y ampliado mis intereses investigativos, que deseo seguir desarrollando en el marco de mi vinculación académica. En particular, aspiro a profundizar en el estudio del tratamiento periodístico de las violencias de género en contextos de conflicto, así como en la representación mediática de las violencias basadas en género. De igual manera, me interesa explorar nuevas líneas centradas en la reparación de víctimas y sobrevivientes, mediante la creación de estrategias comunicativas que conciban la comunicación como una forma de acción transformadora. Asimismo, deseo investigar cómo las herramientas que hoy nos ofrece la inteligencia artificial pueden contribuir a generar espacios de co-construcción con las audiencias, donde la comunicación sea concebida como una forma de acción transformadora, fortaleciendo prácticas participativas, éticas, inclusivas y socialmente responsables.
 
 Considero que el Programa de Comunicación Social de la Pontificia Universidad Javeriana es un espacio académico idóneo para seguir aportando y creciendo, no solo por su reconocido enfoque crítico y humanista, sino también por su interés en temas que atraviesan mi quehacer docente e investigativo: medios, redes sociales, movimientos sociales, memoria histórica y violencias mediáticas. En 2024, tuve el privilegio de dictar un taller en su Facultad en el marco de mi estancia posdoctoral, y fue una experiencia profundamente enriquecedora al constatar la curiosidad, el compromiso y la capacidad crítica de sus estudiantes.
 
-Estoy convencida de que ser parte del equipo docente de la Universidad Javeriana no solo fortalecerá mis proyectos académicos e investigativos, sino que me permitirá retribuir a la institución que, en su momento, fue clave para mi desarrollo profesional, aportando ahora desde la docencia, la investigación y la gestión con la misma pasión y dedicación que han caracterizado cada etapa de mi carrera.
+Me entusiasma la posibilidad de incorporarme a la Facultad de Comunicación y Lenguaje de la Pontificia Universidad Javeriana, y de contribuir activamente a la formación de estudiantes tanto de pregrado como de posgrado. Asimismo, considero que sería una valiosa oportunidad poder interactuar con colegas que desarrollan líneas de investigación complementarias a las mías. Actualmente mantengo colaboraciones con investigadoras e investigadores en Colombia y España, y en la Universidad Javeriana reconozco un entorno académico que ofrece amplias posibilidades de diálogo y cooperación, en particular con el grupo de Comunicación, Medios y Cultura, con el Doctorado en Comunicación, Lenguajes e Información, y con los semilleros Discursos y Prácticas de Reconciliación y Semigénero.
+
+Estoy convencida de que ser parte del equipo docente de la Universidad Javeriana no solo fortalecerá mis proyectos académicos e investigativos, sino que me permitirá retribuir a la institución que ha sido clave para mi desarrollo profesional, aportando ahora desde la docencia, la investigación y la gestión con la misma pasión y dedicación que han caracterizado cada etapa de mi carrera.
 
 Agradezco de antemano su tiempo y consideración.
+
+\vspace{2em}
 
 Atentamente,
 
@@ -78,7 +86,7 @@ Atentamente,
 
 \vspace{-1.5em}
 \textbf{Mónica Echeverría Burbano}
-\vspace{-1.5em}
+\vspace{-1em}
 \begin{footnotesize} 
-PhD en Investigación en Medios de Comunicación
+Ph.D. en Investigación en Medios de Comunicación
 \end{footnotesize}
