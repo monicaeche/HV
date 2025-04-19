@@ -44,7 +44,7 @@ lapply(packages, library, character.only = TRUE) |>
 
 Bogotá, `r format(Sys.Date(),'%d de %B de %Y')` 
 
-\bigskip
+\vspace{2em}
 
 \textbf{Programa de Comunicación Social \newline
 Facultad de Comunicación y Lenguaje \newline
@@ -67,6 +67,9 @@ De manera destacada, en la agencia Brújula Comunicaciones participé en la camp
 En el ámbito académico, he ejercido durante más de ocho años como docente universitaria e investigadora, dictando asignaturas sobre comunicación estratégica, derechos humanos, género y metodologías de investigación. He dirigido trabajos de grado, liderado semilleros de investigación y gestionado proyectos financiados mediante convocatorias competitivas, lo cual me ha permitido fortalecer mis competencias en formación, acompañamiento académico y liderazgo de grupos.
 
 Actualmente, me encuentro finalizando una estancia posdoctoral financiada por Minciencias, en colaboración con la Red de Mujeres Víctimas y Profesionales, donde desarrollo un curso virtual enfocado en el tratamiento periodístico de las violencias de género, lo que reafirma mi compromiso con la innovación pedagógica y la investigación aplicada.
+
+\newpage
+\vspace*{1em}
 
 Esta línea de trabajo ha fortalecido y ampliado mis intereses investigativos, que deseo seguir desarrollando en el marco de mi vinculación académica. En particular, aspiro a profundizar en el estudio del tratamiento periodístico de las violencias de género en contextos de conflicto, así como en la representación mediática de las violencias basadas en género. De igual manera, me interesa explorar nuevas líneas centradas en la reparación de víctimas y sobrevivientes, mediante la creación de estrategias comunicativas que conciban la comunicación como una forma de acción transformadora. Asimismo, deseo investigar cómo las herramientas que hoy nos ofrece la inteligencia artificial pueden contribuir a generar espacios de co-construcción con las audiencias, donde la comunicación sea concebida como una forma de acción transformadora, fortaleciendo prácticas participativas, éticas, inclusivas y socialmente responsables.
 

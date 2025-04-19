@@ -2,13 +2,13 @@
 graphics: yes
 name: Mónica
 surname: Echeverría Burbano
-phone: (+57) 3212747177
+phone: (+57) 321 274 7177
 email: "monicaeche@gmail.com"
 orcid: 0000-0002-6033-1085
 aboutme: |
   [*CvLAC*](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001636025) • 
-  [*Book fotográfico*](https://mecheverria8.wixsite.com/monicaechefoto)
-#profilepic: "images/Moni.jpg"
+  [*Book fotográfico*](https://view.genially.com/6803eb879190c65998db6142)
+profilepic: ""
 date: "`r if (.Platform$OS.type == 'windows') { Sys.setlocale('LC_TIME','Spanish_Spain') } else { Sys.setlocale('LC_TIME','es_CO.UTF-8') }; format(Sys.Date(), '%d de %B de %Y')`"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 00A388

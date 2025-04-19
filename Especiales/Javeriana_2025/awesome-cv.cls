@@ -399,17 +399,17 @@
 %% Define helper macros a user can change easily
 % Header
 \newcommand{\acvHeaderNameDelim}{\space}
-\newcommand{\acvHeaderAfterNameSkip}{.4mm}
+\newcommand{\acvHeaderAfterNameSkip}{.8mm}
 \newcommand{\acvHeaderAfterPositionSkip}{.4mm}
 \newcommand{\acvHeaderAfterAddressSkip}{-.5mm}
 \newcommand{\acvHeaderIconSep}{\space}
 \newcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-\newcommand{\acvHeaderAfterSocialSkip}{6mm}
-\newcommand{\acvHeaderAfterQuoteSkip}{5mm}
+\newcommand{\acvHeaderAfterSocialSkip}{5mm}
+\newcommand{\acvHeaderAfterQuoteSkip}{-1mm}
 
 % Others
-\newcommand{\acvSectionTopSkip}{3mm}
-\newcommand{\acvSectionContentTopSkip}{2.5mm}
+\newcommand{\acvSectionTopSkip}{2mm}
+\newcommand{\acvSectionContentTopSkip}{2mm}
 
 
 %-------------------------------------------------------------------------------
@@ -588,6 +588,7 @@
 
 \renewcommand{\section}[1]{%
 	\vspace{\acvSectionTopSkip}
+	\vspace{-1mm}
 	{\color{awesome}{\blacktriangleright\space}}
 	\sectionstyle{#1}
 	\phantomsection
@@ -598,7 +599,7 @@
 % Usage: \cvsubsection{<subsection-title>}
 \renewcommand{\subsection}[1]{%
 	\vspace{\acvSectionContentTopSkip}
-%	\vspace{-3mm}
+	\vspace{-2mm}
   {\color{awesome}{\blacktriangleright\blacktriangleright\space}}
 	\subsectionstyle{#1}
 	\phantomsection
