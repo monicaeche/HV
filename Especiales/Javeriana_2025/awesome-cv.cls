@@ -588,7 +588,7 @@
 
 \renewcommand{\section}[1]{%
 	\vspace{\acvSectionTopSkip}
-	\vspace{-1mm}
+%	\vspace{-1mm}
 	{\color{awesome}{\blacktriangleright\space}}
 	\sectionstyle{#1}
 	\phantomsection
@@ -599,7 +599,7 @@
 % Usage: \cvsubsection{<subsection-title>}
 \renewcommand{\subsection}[1]{%
 	\vspace{\acvSectionContentTopSkip}
-	\vspace{-2mm}
+%	\vspace{-2mm}
   {\color{awesome}{\blacktriangleright\blacktriangleright\space}}
 	\subsectionstyle{#1}
 	\phantomsection
@@ -609,7 +609,7 @@
 % Usage: \cvsubsection{<subsection-title>}
 \renewcommand{\subsubsection}[1]{%
 	\vspace{\acvSectionContentTopSkip}
-	\vspace{-3mm}
+%	\vspace{-3mm}
 	{\color{awesome}{\blacktriangleright\blacktriangleright\blacktriangleright\space}}
 	\subsubsectionstyle{#1}
 	\phantomsection
