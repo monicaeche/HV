@@ -8,7 +8,7 @@ orcid: 0000-0002-6033-1085
 aboutme: |
   [*CvLAC*](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001636025) • 
   [*Book fotográfico*](https://mecheverria8.wixsite.com/monicaechefoto)
-profilepic: "images/Moni.jpg"
+profilepic: ""
 date: "`r if (.Platform$OS.type == 'windows') { Sys.setlocale('LC_TIME','Spanish_Spain') } else { Sys.setlocale('LC_TIME','es_CO.UTF-8') }; format(Sys.Date(), '%d de %B de %Y')`"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 00A388
