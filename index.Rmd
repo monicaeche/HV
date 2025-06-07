@@ -31,6 +31,8 @@ En esta página, puedes ver o descargar tanto mi hoja de vida general, como una 
 
 * [Hoja de vida resumida](https://monicaeche.github.io/HV/PDF/Monica_Echeverria_HV_resumida.pdf) (2 páginas) 
 
+* [Hoja de vida académica y administrativa](https://monicaeche.github.io/HV/PDF/Monica_Echeverria_HV_administrativa.pdf) 
+
 ______________________
 
 ***Nota:*** El repositorio con el código para crear esta HV está disponible en  [GitHub `r fontawesome::fa(name = "github")`](https://github.com/monicaeche/CV) 
