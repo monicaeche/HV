@@ -7,7 +7,7 @@ email: "monicaeche@gmail.com"
 orcid: 0000-0002-6033-1085
 aboutme: |
   [*CvLAC*](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001636025) • 
-  [*Book fotográfico*](https://mecheverria8.wixsite.com/monicaechefoto)
+  [*Book fotográfico*](https://view.genially.com/6803eb879190c65998db6142)
 profilepic: ""
 date: "`r if (.Platform$OS.type == 'windows') { Sys.setlocale('LC_TIME','Spanish_Spain') } else { Sys.setlocale('LC_TIME','es_CO.UTF-8') }; format(Sys.Date(), '%d de %B de %Y')`"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
@@ -46,7 +46,7 @@ lapply(packages, library, character.only = TRUE) %>%
 
 # Acerca de mí
 
-Mi trabajo profesional ha estado vinculado con el respeto de los Derechos Humanos, el acceso a la justicia, la resolución de conflictos y a la equidad de género, desde la creación y gestión de estrategias comunicativas participativas a favor del cambio social, el relacionamiento entre organizaciones, y el apoyo a iniciativas institucionales. Tengo experiencia en la gestión de la calidad, actualización y reforma de proyectos académicos. Soy investigadora en medios de comunicación con un particular interés por el impacto del quehacer periodístico y las redes sociales en la prevención de violencias basadas en género.
+Mi trabajo profesional ha estado vinculado con el respeto de los Derechos Humanos, el acceso a la justicia y la resolución de conflictos a favor del reconocimiento de las diversidades y la equidad de género, lo anterior, desde la realización de estrategias comunicativas participativas a favor del cambio social, procesos pedagógicos y la creación y seguimiento de proyectos sociales. Soy docente, investigadora de medios de comunicación, con experiencia en el análisis del quehacer periodístico en diferentes contextos y en investigación social. Cuento con experiencia en la estructuración pedagógica de procesos de aprendizaje virtuales y presenciales.
 
 # Investigación
 

@@ -12,7 +12,7 @@ profilepic: ""
 date: "`r if (.Platform$OS.type == 'windows') { Sys.setlocale('LC_TIME','Spanish_Spain') } else { Sys.setlocale('LC_TIME','es_CO.UTF-8') }; format(Sys.Date(), '%d de %B de %Y')`"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa-cv.csl"
 headcolor: 00A388
-docname: Hoja de Vida Académica
+docname: Hoja de Vida Resumida
 ---
 
 ```{r setup, include=FALSE}
@@ -62,92 +62,14 @@ Mi trabajo profesional ha estado vinculado con el respeto de los Derechos Humano
 ```{r educacion}
 readxl::read_excel("data/educacion.xlsx") %>%
   tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
+  vitae::detailed_entries(what, when, with, where,
                           .protect = FALSE)
 ```
 
-# Educación complementaria
+# Experiencia Laboral y Académica
 
-```{r educacion_complementaria}
-readxl::read_excel("data/educacion_complementaria.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
-
-# Subvenciones, Premios y Reconocimientos
-
-```{r reconocimientos}
-readxl::read_excel("data/reconocimientos.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
-
-# Experiencia Académica
-
-```{r experiencia_docente}
-readxl::read_excel("data/experiencia_docente.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
-
-# Publicaciones
-
-## \textbf{Artículos en Revisión}
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-`r knitr::knit_child("bib/articulos_sometidos.txt")`
-
-\endgroup
-
-## \textbf{Artículos Publicados}
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-`r knitr::knit_child("bib/articulos.txt")`
-
-\endgroup
-
-## \textbf{Capítulos de Libro}
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-`r knitr::knit_child("bib/capitulos.txt")`
-
-\endgroup
-
-# Ponencias en Congresos y Conferencias
-
-\begingroup
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-
-`r knitr::knit_child("bib/ponencias.txt")`
-
-\endgroup
-
-# Roles Editoriales
-
-```{r par}
-readxl::read_excel("data/par_evaluador.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
-
-# Organización de Eventos Académicos
-
-```{r eventos}
-readxl::read_excel("data/eventos.xlsx") %>%
+```{r experiencia_laboral}
+readxl::read_excel("data/experiencia_laboral_docente.xlsx") %>%
   tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why,
                           .protect = FALSE)
@@ -162,20 +84,6 @@ readxl::read_excel("data/proyectos.xlsx") %>%
                           .protect = FALSE)
 ```
 
-# Experiencia Laboral No Académica
+# Hoja de Vida Académica
 
-```{r experiencia_laboral}
-readxl::read_excel("data/experiencia_laboral.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
-
-# Supervisión de Proyectos de Investigación
-
-```{r supervision}
-readxl::read_excel("data/supervision.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
+Para información detallada, visita mi [Hoja de Vida Académica](https://monicaeche.github.io/HV/PDF/Monica_Echeverria_HV.pdf).
