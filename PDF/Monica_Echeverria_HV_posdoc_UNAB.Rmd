@@ -63,9 +63,11 @@ readxl::read_excel("data/educacion.xlsx") %>%
                           .protect = FALSE)
 ```
 
+\textcolor{teal}{\faInfoCircle } Ver [certificados de títulos universitarios](https://monicaeche.github.io/HV/PDF/Certificados/titulos_universitarios.pdf)
+
 # Educación complementaria
 
-XXXXXX VER LINK XXXXXX
+\textcolor{teal}{\faInfoCircle } Ver [certificados de educación complementaria](https://monicaeche.github.io/HV/PDF/Certificados/edu_complementaria.pdf)
 
 # Experiencia Académica
 
@@ -76,6 +78,8 @@ readxl::read_excel("data/experiencia_docente.xlsx") %>%
                           .protect = FALSE)
 ```
 
+\textcolor{teal}{\faInfoCircle } Ver [certificados de experiencia académica](https://monicaeche.github.io/HV/PDF/Certificados/exp_academica.pdf)
+ 
 # Publicaciones
 
 ## \textbf{Artículos en Revisión}
@@ -110,11 +114,11 @@ readxl::read_excel("data/experiencia_docente.xlsx") %>%
 
 # Ponencias en Congresos y Conferencias
 
-XXXXXX VER LINK XXXXXX
+\textcolor{teal}{\faInfoCircle } Ver [certificados de ponencias, talleres y seminarios](https://monicaeche.github.io/HV/PDF/Certificados/ponencias.pdf)
 
 # Roles Editoriales
 
-XXXXXX VER LINK XXXXXX
+\textcolor{teal}{\faInfoCircle } Ver [certificados como par académico](https://monicaeche.github.io/HV/PDF/Certificados/par_academico.pdf)
 
 # Proyectos de Investigación Liderados
 
@@ -125,6 +129,8 @@ readxl::read_excel("data/proyectos.xlsx") %>%
                           .protect = FALSE)
 ```
 
+\textcolor{teal}{\faInfoCircle } Ver [certificados como par académico](https://monicaeche.github.io/HV/PDF/Certificados/proyectos.pdf)
+
 # Experiencia Laboral No Académica
 
 ```{r experiencia_laboral}
@@ -134,13 +140,4 @@ readxl::read_excel("data/experiencia_laboral.xlsx") %>%
                           .protect = FALSE)
 ```
 
-# Supervisión de Proyectos de Investigación
-
-```{r supervision}
-readxl::read_excel("data/supervision.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why,
-                          .protect = FALSE)
-```
-
-XXXXXX VER LINK XXXXXX
+\textcolor{teal}{\faInfoCircle } Ver [certificados de experiencia laboral](https://monicaeche.github.io/HV/PDF/Certificados/exp_laboral.pdf)
