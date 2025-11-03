@@ -129,7 +129,7 @@ readxl::read_excel("data/proyectos.xlsx") %>%
                           .protect = FALSE)
 ```
 
-\textcolor{teal}{\faInfoCircle } Ver [certificados como par académico](https://monicaeche.github.io/HV/PDF/Certificados/proyectos.pdf)
+\textcolor{teal}{\faInfoCircle } Ver [certificados de proyectos liderados](https://monicaeche.github.io/HV/PDF/Certificados/proyectos.pdf)
 
 # Experiencia Laboral No Académica
 
