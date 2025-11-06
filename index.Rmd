@@ -35,6 +35,10 @@ En esta página, puedes ver o descargar tanto mi hoja de vida general, como una 
 
 * [Hoja de vida académica y administrativa](https://monicaeche.github.io/HV/PDF/Monica_Echeverria_HV_administrativa.pdf) 
 
+***Nota:*** El repositorio con el código para crear esta HV está disponible en  [GitHub `r fontawesome::fa(name = "github")`](https://github.com/monicaeche/HV) 
+
 ______________________
 
-***Nota:*** El repositorio con el código para crear esta HV está disponible en  [GitHub `r fontawesome::fa(name = "github")`](https://github.com/monicaeche/HV) 
+# Hoja de vida interactiva
+
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="HV Mónica Echeverría Burbano" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/6893b50cd4531caeee519059" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
