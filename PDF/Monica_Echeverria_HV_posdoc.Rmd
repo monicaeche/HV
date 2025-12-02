@@ -54,7 +54,7 @@ Mi trayectoria profesional se centra en el respeto de los Derechos Humanos, el a
   \cvskill
     {Líneas de Investigación}
     {Comunicación estratégica en organizaciones y movimientos sociales • Género • Interseccionalidad \newline
-    Derechos humanos  • Diversidades  • Conflictos sociopolíticos}
+    Derechos humanos  • Diversidades  • Conflictos sociopolíticos  • Metodologías participativas}
 \end{cvskills}
 
 # Educación
